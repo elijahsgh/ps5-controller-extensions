@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "com.github.elijahsgh.ps5controller",
+        "Name": "PS5 Controller",
+        "Description": "Shows PS5 controller power info and allows turning it off",
+        "Icon": "input-gaming",
+        "Category": "Utilities",
+        "Version": "1.0",
+        "Website": "https://kde.org"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.applet"
+    ]
+}

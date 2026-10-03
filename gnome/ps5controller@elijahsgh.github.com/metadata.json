@@ -1,0 +1,9 @@
+{
+  "name": "PS5 Controller Battery",
+  "description": "Shows PS5 controller power info and allows turning it off",
+  "uuid": "ps5controller@elijahsgh.github.com",
+  "shell-version": [
+    "45", "46", "47", "48", "49", "50", "51"
+  ],
+  "url": ""
+}
