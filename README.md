@@ -1,5 +1,6 @@
 # PS5 Controller Battery Monitor
 
+![KDE Plasma Widget showing the PS5 controller battery level and a turn off button](./ps5controllerscreenshot.png)
 A cross-desktop Linux utility for monitoring Sony PS5 DualSense controller battery levels and turning them off directly from your system panel.
 
 This project supports both **KDE Plasma 6** and **GNOME Shell (45+)**, providing native, beautifully integrated panel widgets for both desktop environments.
@@ -19,7 +20,7 @@ For the "Turn Off" functionality to work over a wired USB connection without req
 
 From the root of this project:
 ```bash
-sudo cp kde/99-ps5-controller.rules /etc/udev/rules.d/
+sudo cp 99-ps5-controller.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 *(You may need to unplug and plug your controller back in once for the rule to take effect).*

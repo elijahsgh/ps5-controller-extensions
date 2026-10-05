@@ -10,7 +10,7 @@ You must install the project's udev rule to allow the backend script to programm
 
 *(If you haven't already installed this from the main project instructions)*:
 ```bash
-sudo cp ../kde/99-ps5-controller.rules /etc/udev/rules.d/
+sudo cp ../99-ps5-controller.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
